@@ -2,6 +2,8 @@ package Hufman;
 
 public class Node {
 
+
+
      String symbol;
      String code;
      int freq;
@@ -13,6 +15,10 @@ public class Node {
         code="";
         freq=0;
     }
+
+
+
+
 
     public String getSymbol() {
         return symbol;
