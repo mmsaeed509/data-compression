@@ -21,7 +21,7 @@ public class Main {
             switch (choice) {
                 case 1:
                 {
-                    System.out.println("Enter Statement to be copressed: ");
+                    System.out.println("Enter Statement to be compressed: ");
                     String Data = input.next();
                     Compression demo = new Compression(Data);
                     demo.compress();
