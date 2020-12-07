@@ -35,7 +35,7 @@ public class Main {
                     System.out.println("please Enter 1 to compress, 2 to decompress: (not another number) ");
                     break;
             }
-        }while(Exit == true);
+        }while(Exit);
 
     }
 

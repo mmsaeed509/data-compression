@@ -1,10 +1,13 @@
 import Hufman.*;
 import LZ77.*;
 import LZ78.*;
+
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.util.*;
 
 public class winOzoz {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException, IOException {
 
         System.out.println("**************************************");
         System.out.println("*        Welcome In Win Ozoz         *");
@@ -22,6 +25,41 @@ public class winOzoz {
         String choice ;
         Scanner scannerString = new Scanner(System.in);
         choice = scannerString.nextLine();
+
+        // Huffman
+        if (choice.equals("1")){
+
+        }
+        // Huffman
+
+        // LZ77
+        else if (choice.equals("2")){
+
+        }
+        // LZ77
+
+        // LZ88
+        else if (choice.equals("3")){
+
+        }
+        // LZ88
+
+        // Exit
+        else if (choice.equals("4")){
+
+            System.out.println(" Good Bye ^_^ ");
+            System.exit(0);
+
+        }
+        // Exit
+
+        else {
+
+            System.out.println("Wrong Choice ");
+
+        }
+
+
 
     }
 }
