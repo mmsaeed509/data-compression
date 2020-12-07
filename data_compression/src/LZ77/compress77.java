@@ -10,7 +10,7 @@ import java.io.InputStreamReader;
 public class compress77 {
 
     public void compress() throws IOException {
-        FileInputStream FileRead1 = new FileInputStream("D:\\All Download\\test.txt");
+        FileInputStream FileRead1 = new FileInputStream("/home/ozil/GitHub/data-compression/data_compression/test.txt");
         DataInputStream DataRead1 = new DataInputStream(FileRead1);
         BufferedReader readdata = new BufferedReader(new InputStreamReader(DataRead1));
         FileOutputStream Filewrite = new FileOutputStream("Compress.txt");

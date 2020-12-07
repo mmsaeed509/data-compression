@@ -16,6 +16,7 @@ public class winOzoz {
         System.out.println("* 2 _ LZ77                           *");
         System.out.println("* 3 _ LZ88                           *");
         System.out.println("* 4 _ Exit                           *");
+        System.out.println("*                                    *");
         System.out.println("**************************************");
 
         String choice ;
