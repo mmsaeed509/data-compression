@@ -1,8 +1,16 @@
+/**
+ *
+ Name : Mahmoud Mohamed Said Ahmed       ID : 20180261
+
+ Name : Karim Reda Abd-elhamed Arafaa    ID : 20180202
+
+ Name : Ahmed Emad Youssef               ID : 20180017
+
+ **/
+
 package Hufman;
 
 public class Node {
-
-
 
      String symbol;
      String code;
@@ -17,46 +25,4 @@ public class Node {
     }
 
 
-
-
-
-    public String getSymbol() {
-        return symbol;
-    }
-
-    public void setSymbol(String symbol) {
-        this.symbol = symbol;
-    }
-
-    public String getCode() {
-        return code;
-    }
-
-    public void setCode(String code) {
-        this.code = code;
-    }
-
-    public int getFreq() {
-        return freq;
-    }
-
-    public void setFreq(int freq) {
-        this.freq = freq;
-    }
-
-    public Node getLeft() {
-        return left;
-    }
-
-    public void setLeft(Node left) {
-        this.left = left;
-    }
-
-    public Node getRight() {
-        return right;
-    }
-
-    public void setRight(Node right) {
-        this.right = right;
-    }
 }
