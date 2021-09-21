@@ -40,6 +40,17 @@ public class winOzoz {
         // Huffman
         if (choice.equals("1")){
 
+
+            Comparator <Probability> comparator = new Compare();
+            Huffman.priorityQueue = new PriorityQueue<>(1,comparator);
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.println("enter the txt : ");
+            Huffman.txt = scanner.nextLine();
+            Huffman.solve();
+            Huffman.print();
+
+
         }
         // Huffman
 
