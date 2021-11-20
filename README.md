@@ -2,7 +2,7 @@
 
 ## data-compression Assignments
 
-it's a basic implementation of some algorithms to compress the data
+`it's a basic implementation of some algorithms to compress the data`
 
 ### Implemented Algorithms
 
