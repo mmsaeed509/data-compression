@@ -6,4 +6,4 @@ it's a basic implementation of some algorithms to compress the data
 
 ### Implemented Algorithms
 
-## `Hufman` `LZ77` `LZ78`
+### `Hufman` `LZ77` `LZ78`
