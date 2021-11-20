@@ -4,6 +4,6 @@
 
 it's a basic implementation of some algorithms to compress the data
 
-### the used algorithms
+### Implemented Algorithms
 
 ## `Hufman` `LZ77` `LZ78`
